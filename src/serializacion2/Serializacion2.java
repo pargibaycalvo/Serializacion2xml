@@ -109,10 +109,10 @@ public class Serializacion2 {
             
                         xmls.writeStartElement("product");
                             xmls.writeStartElement("obj1");
-                            
-                                xmls.writeStartElement("cod");
-                                    xmls.writeCharacters("0");
-                                xmls.writeEndElement();
+                            xmls.writeAttribute("cod", "0");
+//                                xmls.writeStartElement("cod");
+//                                    xmls.writeCharacters("0");
+//                                xmls.writeEndElement();
                                 xmls.writeStartElement("des");
                                     xmls.writeCharacters("0");
                                 xmls.writeEndElement();
@@ -123,10 +123,10 @@ public class Serializacion2 {
                             xmls.writeEndElement();
                             
                             xmls.writeStartElement("obj2");
-                            
-                                xmls.writeStartElement("cod");
-                                    xmls.writeCharacters("1");
-                                xmls.writeEndElement();
+                            xmls.writeAttribute("cod", "1");
+//                                xmls.writeStartElement("cod");
+//                                    xmls.writeCharacters("1");
+//                                xmls.writeEndElement();
                                 xmls.writeStartElement("des");
                                     xmls.writeCharacters("1");
                                 xmls.writeEndElement();
@@ -137,10 +137,10 @@ public class Serializacion2 {
                             xmls.writeEndElement();
                             
                             xmls.writeStartElement("obj3");
-                            
-                                xmls.writeStartElement("cod");
-                                    xmls.writeCharacters("2");
-                                xmls.writeEndElement();
+                            xmls.writeAttribute("cod", "2");
+//                                xmls.writeStartElement("cod");
+//                                    xmls.writeCharacters("2");
+//                                xmls.writeEndElement();
                                 xmls.writeStartElement("des");
                                     xmls.writeCharacters("2");
                                 xmls.writeEndElement();
